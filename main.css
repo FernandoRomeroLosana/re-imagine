@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/* @media screen and (min-width: 768px) {
+  .MainLettering {
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding: 5%;
+    text-align: center;
+  } */
+
+a {
+
+  text-decoration: none;
+  color:inherit;
+
+}
+
+h1{
+
+font-family: 'Staatliches', cursive;
+text-align: center;
+margin-top: 15px;
+font-size: 70px;
+
+
+}
+
+
+.BodyStyle{
+
+  background-color: #333333;
+
+
+}
+
+.CardLettering{
+
+  font-family: 'Bebas Neue', cursive;
+}
+
+.CardMain{
+
+  background-color: #333333;
+  color:white;
+  font-family: 'Bebas Neue', cursive;
+  padding: 10%;
+  height: 80%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.CardMain1{
+
+  font-family: 'Bebas Neue', cursive;
+  padding: 3%;
+  height: 80%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  font-size: 24px;
+}
+
+
+.DivMain{
+    width: flex;
+    height: 100%;
+    background-color: #f21818;
+}
+
+.DivMain1{
+    width: flex;
+    height: 90%;
+    background-color: #f21818;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+.MainLettering{
+
+  font-family: 'Bebas Neue', cursive;
+  font-size: 65px;
+  color: white;
+  padding: 5%;
+  text-align: center;
+  padding-top: 15%;
+
+
+}
+
+.navbar{
+
+  font-family: 'Bebas Neue', cursive;
+  font-size: 23px;
+}
+
+.row-margin{
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.Shadow1{
+
+  box-shadow: 5px 5px #f21818;
+
+}
+
+.Shadow2{
+
+  box-shadow: -5px -5px #f21818;
+  border-radius: 5px;
+
+}
+
+.Shadow3{
+
+  box-shadow: 5px 5px #333333;
+
+}
+
+.SmallIcon{
+
+  max-height: 55px;
+
+}
+
+.TextColor{
+
+  color: white;
+}
+
+/* Gallery */
+
+/* .container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+} */
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+/* .tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+} */
+/*
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+} */
+
+/* .baguetteBox-button {
+    background-color: transparent !important;
+} */
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
